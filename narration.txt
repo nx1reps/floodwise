@@ -1,0 +1,11 @@
+In Hampton Roads, a sunny day can still flood your street. FloodWise tells you before it happens.
+Living here in the 757, we see cars stalled on Colley Avenue under blue skies when astronomical high tides push water through storm drains. Weather apps only tell you rain percentage, not rising water.
+FloodWise solves this in two seconds.
+Our onboarding introduces the cross-domain problem and transparent privacy: your GPS is processed strictly in-memory to fetch regional Doppler grids, never stored or sold.
+On the home screen, you get an instant Green, Yellow, or Red status, a risk score, and an exact leave-by recommendation, like "High tide plus heavy rain at 6 PM."
+The trio sensors give you live NWS precipitation rates, NOAA tide anomalies, and USGS river stages.
+Tapping Live Map brings up an interactive aviation radar view with animated sweep rings, active flood layers, and crowdsourced hazard pins.
+When neighbors see water touching the curb or hubcap, they drop an anonymous pin in two taps. Every report expires automatically in four hours so drivers always get fresh intel.
+I built FloodWise natively in SwiftUI. It connects three free government APIs without paid keys. I coded the deterministic risk engine myself to fuse multi-source data without hallucinations.
+Next, I am working with local civic leagues to link neighborhood storm sensor networks.
+My name is Daniel Dano, and this is FloodWise.
